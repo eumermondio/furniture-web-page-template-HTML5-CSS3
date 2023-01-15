@@ -1,0 +1,539 @@
+/*Parte superior, menús y banner */
+/*INDEX*/
+
+.tituloColor {
+    color: rgb(36, 63, 187);
+    text-shadow: 3px black;
+}
+
+#titulo {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+#menu li:hover {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px blue solid;
+    cursor: pointer;
+    color: white;
+}
+
+#cajaMenu {
+    margin: auto;
+    width: 80%;
+}
+
+#menu li {
+    list-style: none;
+    transition: 0.4s;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px rgba(0, 0, 0, 0) solid;
+    font-weight: 200;
+    margin: 0px 20px;
+}
+
+#menu {
+    margin: auto;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 12.7pt;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*Parte media, contenido y tajetas */
+
+.tarjetas {
+    width: 23.5%;
+    border: 2px black solid;
+    border-radius: 3px;
+    margin: 10px;
+    background-color: rgb(211, 211, 211);
+    display: inline-block;
+}
+
+.tarjetas img {
+    width: 100%;
+    height: 300px;
+}
+
+#contenedor-tarjetas {
+    width: 100%;
+}
+
+a .tarjetas {
+    text-decoration: none;
+    color: black;
+}
+
+a .tarjetas:hover {
+    border: 2px blue solid;
+}
+
+.tarjetas h2 {
+    text-align: center;
+}
+
+#cats h1 {
+    text-align: center;
+}
+
+#cats {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+#empresa {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+/*
+
+.textoNormal {
+    font-size: 12.7pt !important;
+    text-align: justify;
+}
+
+*/
+
+#video {
+    margin: auto;
+    width: 100%;
+}
+
+#video p {
+    text-align: justify;
+    padding: 0px 6px 6px 6px;
+    font-weight: bold;
+}
+
+.videos {
+    width: 31.9%;
+    border: 2px black solid;
+    border-radius: 3px;
+    margin: 10px;
+    background-color: rgb(211, 211, 211);
+    display: inline-block;
+    background-color: rgb(211, 211, 211);
+}
+
+
+/*FIN DE INDEX*/
+/*CATEGORIAS*/
+
+#tablamains img {
+    margin: auto;
+    height: 600px;
+    width: 100%;
+}
+
+#tablamains {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+#tablamains,
+tr,
+td {
+    border: 1px solid black;
+}
+
+#boton1 {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px black solid;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+#boton11 {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px black solid;
+    background-color: rgb(150, 140, 140);
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+#boton1:hover {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px black solid;
+    background-color: rgb(31, 31, 231);
+    font-weight: bold;
+    color: gainsboro;
+    cursor: pointer;
+}
+
+#boton11:hover {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px black solid;
+    background-color: rgb(180, 140, 140);
+    font-weight: bold;
+    color: gainsboro;
+    cursor: pointer;
+}
+
+#cajaMenu1 {
+    margin: auto;
+    width: 37%;
+}
+
+#tabla2 th {
+    background-color: rgb(211, 211, 211);
+}
+
+#tabla2 {
+    border-collapse: collapse;
+    border: 1px black solid;
+    margin-bottom: 30px;
+}
+
+
+/*FIN DE CATEGORIAS*/
+/*PRECIOS*/
+
+#cajaMenu2 #menu li {
+    margin-left: 51.5em;
+}
+
+#contenedor-tarjetasP .tarjetas h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+#contenedor-tarjetasP,
+.tarjetas h4 {
+    text-align: center;
+}
+
+/*FIN DE PRECIOS*/
+/*TIENDA*/
+
+#contenedor-tarjetasT .tarjetas h4 {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+#contenedor-tarjetasT .tarjetas h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+#contenedor-tarjetasT .tarjetas h3 {
+    text-align: center;
+}
+
+#contenedor-tarjetasT .tarjetas h3:hover {
+    text-align: center;
+    color: blue;
+}
+
+.tarjetas a {
+    text-decoration: none;
+    color: black;
+}
+
+/*FIN DE TIENDA*/
+/*COLECCIÓN*/
+
+#divMapa img {
+    width: 100%;
+    border: 1px black solid;
+}
+
+#ns hr {
+    margin-bottom: 30px;
+}
+
+/*FIN DE COLECCIÓN*/
+/*CONTACTO*/
+
+.act2 {
+    width: 600px;
+    background-image: linear-gradient(rgb(0, 119, 255), rgb(0, 60, 255), blue);
+    margin: auto;
+    padding: 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    font-family: "Ubuntu";
+}
+
+.act2 h1 {
+    text-align: center;
+}
+
+.act2 input[type="text"] {
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+    border: solid chocolate 1px;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 35px;
+    background: no-repeat left url(../media/rust.png);
+    background-color: white;
+    background-size: 20px;
+    background-position: 5px 5px;
+}
+
+.act2 input[type="password"] {
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+    border: solid chocolate 1px;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 35px;
+    background: no-repeat left url(../media/rust.png);
+    background-color: white;
+    background-size: 20px;
+    background-position: 5px 5px;
+}
+
+.act2 input[type="text"]:focus {
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+    border: solid darkred 1px;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 35px;
+    background: no-repeat left url(../media/rust.png);
+    background-color: #ccc;
+    background-size: 20px;
+    background-position: 5px 5px;
+}
+
+.act2 input[type="password"]:focus {
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+    border: solid darkred 1px;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 35px;
+    background: no-repeat left url(../media/rust.png);
+    background-color: #ccc;
+    background-size: 20px;
+    background-position: 5px 5px;
+}
+
+.act2 a {
+    background-color: white;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.act2 a[href="https://accounts.google.com"] {
+    padding-right: 372px;
+    border: solid blue 2px;
+    background-color: royalblue;
+    color: white;
+}
+
+.act2 a[href="https://accounts.google.com"]:hover {
+    padding-right: 372px;
+    background-color: blue;
+    color: white;
+    border: solid black 2px;
+}
+
+.act2 a[href="https://www.facebook.com/"] {
+    padding-right: 356px;
+    border: solid blue 2px;
+    background-color: royalblue;
+    color: white;
+}
+
+.act2 a[href="https://www.facebook.com/"]:hover {
+    padding-right: 356px;
+    background-color: blue;
+    color: white;
+    border: solid black 2px;
+}
+
+.final {
+    text-align: center;
+}
+
+input[type="reset"] {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background-color: rgb(52, 93, 214);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[value="Enviar inscripción"] {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[value="Enviar inscripción"]:hover {
+    background-color: rgb(52, 93, 214);
+    border: none;
+    color: whitesmoke;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#formTabla,
+tr,
+td {
+    margin: auto;
+    border: none;
+}
+
+/*FIN DE CONTACTO*/
+/*FABRICACION*/
+
+#cajaMenuFa {
+    margin-left: 27em;
+}
+
+#hrFa {
+    margin-bottom: 30px;
+}
+
+#olF {
+    list-style: decimal;
+    margin: auto;
+}
+
+#olF ol {
+    list-style: initial;
+}
+
+img[src="../media/fabricacion.jpg"] {
+    width: 100%;
+}
+
+#laTabla {
+    width: 100%;
+    border: 2px black solid;
+    background-color: rgb(211, 211, 211);;
+}
+
+#laTabla #elTr {
+    width: 20%;
+}
+
+
+/*FIN DE FABRICACION*/
+/*SOBRE NOSOTROS*/
+
+#laTabla2 {
+    width: 100%;
+    border: 2px black solid;
+    background-color: rgb(211, 211, 211);;
+}
+
+#laTabla #elTr {
+    width: 20%;
+}
+
+img[src="../media/fabrica.jpg"] {
+    width: 100%;
+    height: 600px;
+}
+
+
+/*FIN DE SOBRE NOSOTROS*/
+/*OFERTAS*/
+
+#spn {
+   text-transform: uppercase;
+   font-weight: bolder;
+   font-style: oblique;
+   color: darkblue;
+}
+
+/*ERROR*/
+
+#error {
+    background-color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+#error img {
+    width: 37%;
+    height: 37%;
+}
+
+#error a {
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: black;
+}
+
+#error a:hover {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: black;
+}
